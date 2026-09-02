@@ -178,15 +178,59 @@
 
 #### 示意图如下
 \[
-\begin{array}{ccccccccccccc}
-\text{NADH} & \longrightarrow & \begin{array}{c} \mathbf{\text{复合体 I}} \\ \text{(FMN, Fe-S)} \\ \downarrow \\ \text{\small 鱼藤酮 / 安密妥} \end{array} & \longrightarrow & \text{CoQ} & \longrightarrow & \begin{array}{c} \mathbf{\text{复合体 III}} \\ \text{(Cyt } b_{\text{H}}, b_{\text{L}}, \text{ Fe-S, Cyt } c_1\text{)} \\ \downarrow \\ \text{\small 抗霉素 A} \end{array} & \longrightarrow & \text{Cyt } c & \longrightarrow & \begin{array}{c} \mathbf{\text{复合体 IV}} \\ \text{(Cyt } a, \text{ } a_3, \text{ Cu}_{\text{A}}, \text{ Cu}_{\text{B}}\text{)} \\ \downarrow \\ \text{\small CN}^-, \text{ CO, N}_3^-, \text{ H}_2\text{S} \end{array} & \longrightarrow & \text{O}_2 \\
-& & & & \uparrow & & & & & & & & \\
-& & & & \begin{array}{c} \mathbf{\text{复合体 II}} \\ \text{(FAD, Fe-S)} \\ \uparrow \\ \text{琥珀酸} \end{array} & & & & & & & & 
+\begin{array}{c}
+
+\begin{array}{ccccccccc}
+\mathrm{NADH}
+& \longrightarrow
+& \begin{array}{c}
+\text{复合体 I}\\
+(\mathrm{FMN,\ Fe-S})\\
+\downarrow\\
+\text{鱼藤酮 / 安密妥}
+\end{array}
+& \longrightarrow
+& \begin{array}{c}
+\mathrm{CoQ}\\
+\uparrow\\
+\text{复合体 II}\\
+(\mathrm{FAD,\ Fe-S})\\
+\uparrow\\
+\text{琥珀酸}
+\end{array}
+& \longrightarrow
+& \begin{array}{c}
+\text{复合体 III}\\
+(\mathrm{Cyt}\ b_{\mathrm H}, b_{\mathrm L},\mathrm{Fe-S},\\
+\mathrm{Cyt}\ c_1)\\
+\downarrow\\
+\text{抗霉素 A}
+\end{array}
+& \longrightarrow
+& \mathrm{Cyt}\ c
+\end{array}
+
+\\[1.5em]
+
+\begin{array}{ccccc}
+\mathrm{Cyt}\ c
+& \longrightarrow
+& \begin{array}{c}
+\text{复合体 IV}\\
+(\mathrm{Cyt}\ a, a_3,\\
+\mathrm{Cu}_{\mathrm A},\mathrm{Cu}_{\mathrm B})\\
+\downarrow\\
+\mathrm{CN^-},\mathrm{CO},\\
+\mathrm{N_3^-},\mathrm{H_2S}
+\end{array}
+& \longrightarrow
+& \mathrm{O_2}
+\end{array}
+
 \end{array}
 \]
 
-*注：图中 \(\rightarrow\) 表示电子传递方向，\(\downarrow\) 表示对应位点受其下方抑制剂的阻断作用。*
-
+**注：** 图中 \(\rightarrow\) 表示电子传递方向，\(\downarrow\) 表示对应位点受到其下方抑制剂的阻断作用；第二行是第一行的延续。
 ---
 
 ### Front
