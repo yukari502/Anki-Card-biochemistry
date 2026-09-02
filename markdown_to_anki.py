@@ -71,16 +71,17 @@ CARD_CSS = r"""
   padding: 0;
   background: #f9f9f9;
   color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
-  font-size: 20px;
+    font-family: "Noto Sans SC", "Noto Sans CJK SC", "Source Han Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+    font-size: clamp(16px, 2.4vw, 20px);
   line-height: 1.65;
   text-align: left;
 }
 .apple-card {
   box-sizing: border-box;
-  max-width: 850px;
-  margin: 20px auto;
-  padding: 30px;
+    width: 100%;
+    max-width: 850px;
+    margin: clamp(8px, 2.5vw, 20px) auto;
+    padding: clamp(14px, 4vw, 30px) clamp(8px, 2.5vw, 22px);
   border: 1px solid #e0e0e0;
   border-radius: 12px;
   background: #fff;
@@ -88,13 +89,13 @@ CARD_CSS = r"""
 }
 .front-side {
   color: #222;
-  font-size: 24px;
+    font-size: clamp(19px, 3vw, 26px);
   font-weight: 600;
   text-align: center;
 }
 .back-side {
   color: #333;
-  font-size: 20px;
+    font-size: clamp(16px, 2.4vw, 20px);
   font-weight: 400;
   text-align: left;
 }
@@ -106,7 +107,7 @@ mark {
 }
 img {
   display: block;
-  max-width: 90%;
+    max-width: 96%;
   height: auto;
   margin: 18px auto;
   border-radius: 8px;
@@ -120,7 +121,11 @@ table {
 }
 th, td { padding: 8px 10px; border: 1px solid #bbb; }
 th { background: #f3f0e8; }
-ul, ol { text-align: left; }
+ul, ol {
+    margin: 0.7em 0;
+    padding-left: 1.25em;
+    text-align: left;
+}
 pre, code { font-family: Consolas, "SFMono-Regular", monospace; }
 pre {
   overflow-x: auto;
