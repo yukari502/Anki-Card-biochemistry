@@ -68,20 +68,33 @@
 * **亚细胞定位**：细胞的**细胞质基质（胞液）**。
 * **底物简称对照**：葡萄糖（G）、6-磷酸葡萄糖（G-6-P）、6-磷酸果糖（F-6-P）、1,6-二磷酸果糖（F-1,6-BP）、磷酸二羟丙酮（DHAP）、3-磷酸甘油醛（GAP）、1,3-二磷酸甘油酸（1,3-BPG）、3-磷酸甘油酸（3-PG）、2-磷酸甘油酸（2-PG）、磷酸烯醇式丙酮酸（PEP）、丙酮酸（Pyr）。
 * **糖酵解反应过程（由 10 步酶促反应组成）**：
-  1. **第一阶段：准备阶段（耗能阶段）**
-     * **G 磷酸化**：在**己糖激酶（HK）**或**葡萄糖激酶（GK）**（**限速酶**）的催化下，消耗 1 分子 \(ATP\) 生成 **G-6-P**。
-     * **G-6-P 异构化**：在磷酸葡萄糖异构酶催化下异构化生成 **F-6-P**。
-     * **F-6-P 磷酸化**：在**磷酸果糖激酶-1（PFK-1）**（**最核心的限速酶**）的催化下，消耗 1 分子 \(ATP\) 生成 **F-1,6-BP**。
-     * **F-1,6-BP 裂解**：在醛缩酶作用下裂解生成 1 分子 **GAP** 和 1 分子 **DHAP**。
-     * **DHAP 异构化**：在丙糖磷酸异构酶催化下，**DHAP** 异构化转变为 **GAP**。至此，1 分子 **G** 转化为 2 分子 **GAP**，共消耗 2 分子 \(ATP\)。
-  2. **第二阶段：放能阶段（以 2 分子 GAP 计）**
-     * **GAP 脱氢及磷酸化**：在 3-磷酸甘油醛脱氢酶催化下，**GAP** 结合无机磷酸并脱氢，生成 **1,3-BPG**，同时产生 1 分子 \(NADH + H^+\)。（共产生 2 分子）
-     * **第一次底物水平磷酸化**：在磷酸甘油酸激酶催化下，**1,3-BPG** 将高能磷酸基团转移给 \(ADP\) 生成 \(ATP\)（共产生 2 分子 \(ATP\)），并转变为 **3-PG**。
-     * **3-PG 变位**：在磷酸甘油酸变位酶催化下生成 **2-PG**。
-     * **2-PG 脱水**：在烯醇化酶催化下脱水生成高能化合物 **PEP**。
-     * **第二次底物水平磷酸化**：在**丙酮酸激酶（PK）**（**限速酶**）的催化下，**PEP** 将高能磷酸基团转移给 \(ADP\) 生成 \(ATP\)（共产生 2 分子 \(ATP\)），并生成 **Pyr**。
-  * **总反应方程式**：
-    \[\text{G} + 2P_i + 2ADP + 2NAD^+ \rightarrow 2\text{Pyr} + 2ATP + 2NADH + 2H^+ + 2H_2O\]
+ **1. 准备阶段（耗能阶段，G 转化为 2分子 GAP）**
+- **第1步：G的磷酸化（不可逆）**
+  \[\text{G} + \text{ATP} \xrightarrow{\text{己糖激酶（限速酶）/Mg}^{2+}} \text{G-6-P} + \text{ADP} + \text{H}^+\]
+- **第2步：G-6-P的异构化**
+  \[\text{G-6-P} \xrightleftharpoons{\text{磷酸葡萄糖异构酶}} \text{F-6-P}\]
+- **第3步：F-6-P的磷酸化（不可逆）**
+  \[\text{F-6-P} + \text{ATP} \xrightarrow{\text{磷酸果糖激酶-1（PFK-1，主要限速酶）/Mg}^{2+}} \text{F-1,6-BP} + \text{ADP} + \text{H}^+\]
+- **第4步：F-1,6-BP的裂解**
+  \[\text{F-1,6-BP} \xrightleftharpoons{\text{醛缩酶}} \text{GAP} + \text{DHAP}\]
+- **第5步：丙糖磷酸的异构化**
+  \[\text{DHAP} \xrightleftharpoons{\text{丙糖磷酸异构酶}} \text{GAP}\]
+  *（注：至此1分子G生成2分子GAP，后续反应均需乘以2）*
+
+**2. 放能阶段（获能阶段，GAP 转化为 Pyr）**
+- **第6步：GAP脱氢并磷酸化**
+  \[\text{GAP} + \text{NAD}^+ + \text{P}_i \xrightleftharpoons{\text{3-磷酸甘油醛脱氢酶}} \text{1,3-BPG} + \text{NADH} + \text{H}^+\]
+- **第7步：1,3-BPG底物水平磷酸化**
+  \[\text{1,3-BPG} + \text{ADP} \xrightleftharpoons{\text{磷酸甘油酸激酶/Mg}^{2+}} \text{3-PG} + \text{ATP}\]
+- **第8步：3-PG变位异构**
+  \[\text{3-PG} \xrightleftharpoons{\text{磷酸甘油酸变位酶}} \text{2-PG}\]
+- **第9步：2-PG脱水**
+  \[\text{2-PG} \xrightleftharpoons{\text{烯醇化酶}} \text{PEP} + \text{H}_2\text{O}\]
+- **第10步：PEP底物水平磷酸化（不可逆）**
+  \[\text{PEP} + \text{ADP} + \text{H}^+ \xrightarrow{\text{丙酮酸激酶（限速酶）/Mg}^{2+},\text{ K}^+} \text{Pyr} + \text{ATP}\]
+**糖酵解总反应式**
+
+  \[\text{G} + 2\text{NAD}^+ + 2\text{ADP} + 2\text{P}_i \rightarrow 2\text{Pyr} + 2\text{NADH} + 2\text{H}^+ + 2\text{ATP} + 2\text{H}_2\text{O}\]
     整个途径净生成 **2 分子 \(ATP\)** 和 **2 分子 \(NADH\)**。
 
 * **关键酶（限速酶）**：
