@@ -123,6 +123,7 @@
    * 转子每旋转一周（\(360^\circ\)），消耗约 \(9-12\) 个质子，3 个 \(\beta\) 亚基各自完成一次循环，共产生并释放 3 分子 \(\text{ATP}\)。
 
 ---
+
 ### Front
 论述：呼吸链抑制剂的种类及作用位置
 
@@ -141,96 +142,47 @@
 
 ---
 ### Front
-论述：简述电子传递链的组成（辅基）及常见抑制剂的作用位点
+
+论述：简述电子传递链的组成，并绘制主要传递路径（包含Q循环）
 
 ### Back
-**电子传递链（又称呼吸链）** 是定位在真核细胞线粒体内膜或原核细胞质膜上的一系列按标准还原电势由低到高（或电子亲和力递增）顺序排列的电子载体复合体。其主要功能是将代谢物脱下的电子和氢逐步传递给氧，在此期间释放能量以驱动 \(\text{ATP}\) 的合成。
 
-主要的电子传递载体按空间排布和功能分为四个多亚基蛋白质复合体，各自的辅基、递能反应及特异性抑制剂如下：
+电子传递链主要由蛋白质复合体组成，大致分为4个部分，以及两个游离的组分：
 
-#### 1. 复合体 \(\text{I}\)（\(\text{NADH-Q}\) 还原酶 / \(\text{NADH}\) 脱氢酶）
-* **辅基（Prosthetic groups）**：黄素单核苷酸（\(\text{FMN}\)）、铁硫蛋白（\(\text{Fe-S}\)）。
-* **电子传递路径**：接受 \(\text{NADH}\) 脱下的两个高能电子，经 \(\text{FMN} \rightarrow \text{Fe-S}\) 传递给辅酶 \(\text{Q}\)（泛醌，\(\text{CoQ}\)）。
-* **质子泵功能**：伴随电子传递，将 4 个质子（\(\text{H}^+\)）从线粒体基质（\(\text{N}\) 侧）泵入膜间隙（\(\text{P}\) 侧）。
-* **特异性抑制剂**：**鱼藤酮（rotenone）**、**安密妥（amytal）**、**杀粉蝶菌素 A（piericidin A）**。
-  * *作用位点*：阻断复合体 \(\text{I}\) 内部的电子传递，从而阻止电子由 \(\text{NADH}\) 向 \(\text{CoQ}\) 的传递。
+* **复合体Ⅰ（NADH-Q还原酶）**：将电子从\(\text{NADH}\)传递给辅酶Q。
 
-#### 2. 复合体 \(\text{II}\)（琥珀酸-\(\text{Q}\) 还原酶 / 琥珀酸脱氢酶）
-* **辅基**：黄素腺嘌呤二核苷酸（\(\text{FAD}\)）、铁硫蛋白（\(\text{Fe-S}\)）。
-* **电子传递路径**：在柠檬酸循环中催化琥珀酸氧化生成延胡索酸，脱下的电子经 \(\text{FAD} \rightarrow \text{Fe-S}\) 直接传递给 \(\text{CoQ}\)。
-* **质子泵功能**：传递电子释放的自由能较小，不具有泵出 \(\text{H}^+\) 的功能。
-* **抑制剂**：**丙二酸（malonate）**。
-  * *作用位点*：作为琥珀酸脱氢酶的强抑制剂（竞争性抑制），阻断琥珀酸的脱氢及后续电子传入呼吸链。
+* **复合体Ⅱ（琥珀酸-Q还原酶）**：将电子从\(\text{FADH}_2\)传递给辅酶Q。
 
-#### 3. 复合体 \(\text{III}\)（细胞色素还原酶 / 细胞色素 \(\text{bc}_1\) 复合体）
-* **辅基**：细胞色素 \(\text{b}\)（含血红素 \(\text{b}_{\text{L}}\) 和 \(\text{b}_{\text{H}}\)）、细胞色素 \(\text{c}_1\)（含血红素 \(\text{c}_1\)）、铁硫蛋白（\(\text{Fe-S}\)）。
-* **电子传递路径**：通过独特的 \(\text{Q}\) 循环，将电子从还原型泛醌（\(\text{QH}_2\)）传递给可溶性的细胞色素 \(\text{c}\)（\(\text{Cyt c}\)）。
-* **质子泵功能**：伴随电子传递，将 4 个质子（\(\text{H}^+\)）泵入膜间隙。
-* **特异性抑制剂**：**抗霉素 \(\text{A}\)（antimycin A）**。
-  * *作用位点*：干扰电子从细胞色素 \(\text{b}\) 向细胞色素 \(\text{c}_1\) 的传递作用，抑制电子流向 \(\text{Cyt c}\)。
+* **复合体Ⅲ（细胞色素还原酶）**：催化电子从还原型辅酶Q（\(\text{QH}_2\)）转移到细胞色素c。
 
-#### 4. 复合体 \(\text{IV}\)（细胞色素氧化酶）
-* **辅基**：细胞色素 \(\text{a}\)（含血红素 \(\text{a}\)）、细胞色素 \(\text{a}_3\)（含血红素 \(\text{a}_3\)）、\(\text{Cu}_{\text{A}}\)、\(\text{Cu}_{\text{B}}\)。
-* **电子传递路径**：接受还原型 \(\text{Cyt c}\) 的电子，经 \(\text{Cu}_{\text{A}} \rightarrow \text{a} \rightarrow \text{a}_3\text{-Cu}_{\text{B}}\) 双核中心，最终传递给分子氧（\(\text{O}_2\)）生成水。
-* **质子泵功能**：伴随电子传递，将 2 个质子（\(\text{H}^+\)）从基质泵入膜间隙。
-* **特异性抑制剂**：**氰化物（\(\text{CN}^-\)）**、**叠氮化物（\(\text{N}_3^-\)）**、**一氧化碳（\(\text{CO}\)）**、**硫化氢（\(\text{H}_2\text{S}\)）**。
-  * *作用位点*：阻断电子在细胞色素氧化酶中的传递，即阻断电子由 \(\text{Cyt aa}_3\) 向分子氧（\(\text{O}_2\)）的传递。其中 \(\text{CN}^-\) 和 \(\text{N}_3^-\) 与血红素 \(\text{a}_3\) 的高铁形式结合，\(\text{CO}\) 则与 \(\text{a}_3\) 的亚铁形式结合。
+* **复合体Ⅳ（细胞色素氧化酶）**：将电子从细胞色素c传递给氧，最终生成\(\text{H}_2\text{O}\)。
 
-#### 示意图如下
+* **辅酶Q（CoQ/泛醌）**：脂溶性辅酶，将电子从复合体Ⅰ和复合体Ⅱ转移到复合体Ⅲ。
+
+* **细胞色素c（Cyt c）**：水溶性细胞色素，起到在复合体Ⅲ和Ⅳ之间传递电子的作用。
+
+主要电子传递路径如下：
+
 \[
-\begin{array}{c}
-
-\begin{array}{ccccccccc}
-\mathrm{NADH}
-& \longrightarrow
-& \begin{array}{c}
-\text{复合体 I}\\
-(\mathrm{FMN,\ Fe-S})\\
-\downarrow\\
-\text{鱼藤酮 / 安密妥}
-\end{array}
-& \longrightarrow
-& \begin{array}{c}
-\mathrm{CoQ}\\
-\uparrow\\
-\text{复合体 II}\\
-(\mathrm{FAD,\ Fe-S})\\
-\uparrow\\
-\text{琥珀酸}
-\end{array}
-& \longrightarrow
-& \begin{array}{c}
-\text{复合体 III}\\
-(\mathrm{Cyt}\ b_{\mathrm H}, b_{\mathrm L},\mathrm{Fe-S},\\
-\mathrm{Cyt}\ c_1)\\
-\downarrow\\
-\text{抗霉素 A}
-\end{array}
-& \longrightarrow
-& \mathrm{Cyt}\ c
-\end{array}
-
-\\[1.5em]
-
-\begin{array}{ccccc}
-\mathrm{Cyt}\ c
-& \longrightarrow
-& \begin{array}{c}
-\text{复合体 IV}\\
-(\mathrm{Cyt}\ a, a_3,\\
-\mathrm{Cu}_{\mathrm A},\mathrm{Cu}_{\mathrm B})\\
-\downarrow\\
-\mathrm{CN^-},\mathrm{CO},\\
-\mathrm{N_3^-},\mathrm{H_2S}
-\end{array}
-& \longrightarrow
-& \mathrm{O_2}
-\end{array}
-
+\begin{array}{ccc} 
+\text{NADH} & & \text{FADH}_2 \\ 
+\downarrow & & \downarrow \\ 
+\text{复合体Ⅰ} & & \text{复合体Ⅱ} \\ 
+\searrow & & \swarrow \\ 
+& \text{CoQ} & \\ 
+& \downarrow \text{Q循环} & \\ 
+& \text{复合体Ⅲ} & \\ 
+& \downarrow & \\ 
+& \text{Cyt } c & \\ 
+& \downarrow & \\ 
+& \text{复合体Ⅳ} & \\ 
+& \downarrow & \\ 
+& \text{O}_2 & 
 \end{array}
 \]
 
-**注：** 图中 \(\rightarrow\) 表示电子传递方向，\(\downarrow\) 表示对应位点受到其下方抑制剂的阻断作用；第二行是第一行的延续。
+注：复合体Ⅲ中的\(\text{QH}_2\)将电子传递给细胞色素c不是简单地一次性完成的，而是分为两个阶段。总体伴随着两个\(\text{QH}_2\)参与电子传递，使两个细胞色素c还原，过程中又产生了一个新的\(\text{QH}_2\)分子，这种传递方式称为Q循环。
+
 ---
 
 ### Front
@@ -249,3 +201,8 @@
    * 婴儿体内含有较多的棕色脂肪组织。在冷刺激下，解偶联产热作用受到**去甲肾上腺素**的调节：\(\text{UCP1}\) 介导的解偶联过程被激活，促使质子梯度储存的能量迅速以热能形式释放，成为婴儿维持体温、抵御寒冷的关键保护机制。
 
 ---
+
+
+
+
+
