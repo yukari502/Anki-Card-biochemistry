@@ -65,17 +65,11 @@
 ### Front
 名词解释：磷酸甘油穿梭（甘油-3-磷酸穿梭）
 
+
 ### Back
-**磷酸甘油穿梭**是一种将细胞溶胶中产生的 \(\text{NADH}\) 还原当量（电子）转运入线粒体呼吸链的机制。
-* **发生位置**：主要存在于**脑和骨骼肌**细胞中。
-* **简述过程**：
-  1. 在细胞溶胶中，由细胞溶胶型 \(\alpha\)-磷酸甘油脱氢酶催化，\(\text{NADH}\) 将两个氢（电子）转移给磷酸二羟丙酮（\(\text{DHAP}\)），使其还原为甘油-3-磷酸，同时释放出 \(\text{NAD}^+\)。
-  2. 甘油-3-磷酸通过线粒体外膜扩散进入内膜侧，被结合在线粒体内膜外侧的线粒体型 \(\alpha\)-磷酸甘油脱氢酶重新氧化为磷酸二羟丙酮。该酶是以 \(\text{FAD}\) 为辅基的同工酶，接受电子后生成 \(\text{FADH}_2\)。
-  3. \(\text{FADH}_2\) 将电子直接传递给呼吸链中的泛醌（\(\text{CoQ}\)）生成 \(\text{QH}_2\)，从而进入电子传递链。
-* **产能数量**：由于电子是以 \(\text{FADH}_2\) 形式进入呼吸链，胞质中产生的每分子 \(\text{NADH}\) 经此穿梭再氧化后，仅产生 \(1.5\) 分子 \(\text{ATP}\)。
+一种主要存在于**骨骼肌**和**脑组织**中的线粒体跨膜还原当量穿梭机制。该机制通过胞质与线粒体内膜两侧的甘油-3-磷酸脱氢酶同工酶协同作用，将胞质溶胶中糖酵解产生的 \(\text{NADH}\) 上的还原当量（氢）传递给线粒体内膜上的 \(\text{FAD}\)，生成 \(\text{FADH}_2\) 并直接注入辅酶 Q 汇入呼吸链（绕过复合体 I）。经此穿梭，每分子胞质 \(\text{NADH}\) 氧化磷酸化可产生 \(1.5\) 分子 ATP。
 
 ---
-
 ### Front
 名词解释：苹果酸-天冬氨酸穿梭
 
@@ -165,18 +159,18 @@
 
 \[
 \begin{array}{ccc} 
-\text{NADH} & & \text{FADH}_2 \\ 
-\downarrow & & \downarrow \\ 
-\text{复合体Ⅰ} & & \text{复合体Ⅱ} \\ 
-\searrow & & \swarrow \\ 
-& \text{CoQ} & \\ 
-& \downarrow \text{Q循环} & \\ 
-& \text{复合体Ⅲ} & \\ 
-& \downarrow & \\ 
-& \text{Cyt } c & \\ 
-& \downarrow & \\ 
-& \text{复合体Ⅳ} & \\ 
-& \downarrow & \\ 
+\text{NADH} & & \text{FADH}_2 \ 
+\downarrow & & \downarrow \ 
+\text{复合体Ⅰ} & & \text{复合体Ⅱ} \ 
+\searrow & & \swarrow \ 
+& \text{CoQ} & \ 
+& \downarrow \text{Q循环} & \ 
+& \text{复合体Ⅲ} & \ 
+& \downarrow & \ 
+& \text{Cyt } c & \ 
+& \downarrow & \ 
+& \text{复合体Ⅳ} & \ 
+& \downarrow & \ 
 & \text{O}_2 & 
 \end{array}
 \]
